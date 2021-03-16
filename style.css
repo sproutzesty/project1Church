@@ -1,0 +1,431 @@
+/*Styles Body, Photos size needs to be 1910x1000 for this layout.*/
+
+.body {
+    background-color:rgb(227, 227, 227);
+  }
+  .btn-giving {
+    box-shadow:inset 0px 1px 0px 0px #caefab;
+      background:linear-gradient(to bottom, #77d42a 5%, #5cb811 100%);
+      background-color:#77d42a;
+      border-radius:6px;
+      border:1px solid #268a16;
+      display:inline-block;
+      cursor:pointer;
+      color:#306108;
+      font-family:Arial;
+      font-weight:bold;
+      padding:6px 24px;
+      text-decoration:none;
+      text-shadow:0px 1px 0px #aade7c;
+  }
+  
+  .btn-giving:hover {
+      background:linear-gradient(to bottom, #5cb811 5%, #77d42a 100%);
+      background-color:#5cb811;
+  }
+  .btn-giving:active {
+      position:relative;
+      top:1px;
+  }
+  .a {
+    color:black;
+  }
+  
+  
+  /* Beliefs Page*/
+  .img-fluid{
+    max-width: 100%;
+    height:auto;
+  }
+  
+  /* Staff Page -- all photos must be 200x275px */
+  .staff-card {
+    padding-top: 25px;
+    padding-left: 2px;
+    padding-right: 2px;
+    padding-top: 25px;
+  }
+  .staff-img {
+    width: 250px;
+    height: 300px;
+  
+      border: 1px solid #ddd; 
+      border-radius: 4px;  
+      padding: 5px; 
+      width: 250px; 
+    }
+    
+    .staff-img:hover {
+      box-shadow: 0 0 2px 1px rgba(0, 140, 186, 0.5);
+    }
+    
+    hr.solid {
+      border-top: 3px solid #bbb;
+    }
+  
+  .staff-section {
+    text-align: center;
+  }
+  
+  /* Jumbotron styles*/
+  
+  
+  .jumbotron {
+    text-align: center;
+    color: white;
+    background-size: cover;
+  
+  }
+  
+  .jumbotron.jumbotron-fluid{
+    background-size:cover;
+    text-align: left;
+    padding:15%;
+    margin:0;
+  }
+  
+  .text-block1 {
+    color:white;
+    background: rgba(122, 122, 122, 0.3);
+    width:100%;
+    padding: 10px;
+  }
+  
+  /* styles for all btns in jumbotrons to keep it looking the same */
+  
+  .btn-jumbotron{
+    box-shadow:inset 0px 1px 0px 0px #ffffff;
+      background:linear-gradient(to bottom, #ffffff 5%, #f6f6f6 100%);
+      background-color:#ffffff;
+      border-radius:6px;
+      border:1px solid #dcdcdc;
+      display:inline-block;
+      color:#666666;
+      font-size:15px;
+      padding:6px 24px;
+      text-decoration:none;
+      text-shadow:0px 1px 0px #ffffff;
+    padding-left:10px;
+  }
+  
+  .btn-jumbotron:hover {
+      background:linear-gradient(to bottom, #f6f6f6 5%, #ffffff 100%);
+      background-color:#f6f6f6;
+  }
+  .btn-jumbotron:active {
+      position:relative;
+      top:1px;
+  }
+  
+  /* Tabs*/
+  {box-sizing: border-box}
+  
+  .tabcontent {
+    padding:1rem;
+    overflow: scroll;
+  
+  }
+  /* Set height of body and the document to 100% */
+  body, html {
+    height: 100vh;
+    margin: 0;
+    font-family: Arial;
+  }
+  
+  /* Style tab links */
+  .tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 17px;
+    width: 25%;
+  }
+  
+  .tablink:hover {
+    background-color: #777;
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: white;
+    display: none;
+    padding: 50px 20px;
+    height: 100%;
+  }
+  
+  #Home {background-color: red;}
+  #News {background-color: green;}
+  #Contact {background-color: blue;}
+  #About {background-color: orange;}
+  
+  
+  /* text Grid*/
+  .content-section {
+    padding: 10px;
+  
+  }
+  
+  /* Card  all photos must be 640x800 */
+  .card {
+    float: center;
+    padding: 10px;
+  }
+  .card.mx-auto {
+   margin-bottom:10px;
+  }
+  .card-body{
+    background-color:rgb(240, 240, 240);
+  
+  }
+  
+  /* Google Calendar Responsive */
+  .responsiveCal {
+   
+    position: relative; padding-bottom: 75%; height: 0; overflow: hidden;
+     
+    } 
+    .responsiveCal iframe {
+     
+    position: absolute; top:0; left: 0; width: 100%; height: 100%;
+     
+    }
+  
+  /* photo Grid */
+  .container-photoGrid{
+    margin-bottom: 5rem;
+  }
+  .row {
+      display: flex;
+      flex-wrap: wrap;
+      padding: 0 4px;
+    }
+    /* Create four equal columns that sits next to each other */
+    .column {
+      flex: 25%;
+      max-width: 25%;
+      padding: 0 4px;
+    }
+    
+    .column img {
+      margin-top: 8px;
+      vertical-align: middle;
+      width: 100%;
+    }
+    
+   /*Footer*/
+  
+  #address {
+    background: rgba(250, 250, 250, 0.75);
+    height:fit-content;
+    padding:50px;
+  }
+  #footer-social {
+    padding-top: 50px;
+    padding-bottom: 30px;
+  }
+  #directory {
+    background: rgba(255, 255, 255, 0.75);
+    padding:50px;
+  }
+  .container-directory {
+    background: #3f5b82;
+    height:fit-content;
+    padding-top:30px; 
+    padding-bottom:60px;
+  }
+  .container-directory li a.directory-content {
+    color:black;
+  }
+  
+  
+  /* Social Media*/
+  
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  /* Add a hover effect */
+  .fa:hover {
+    opacity: 0.7;
+  }
+  
+  /* Set a specific color for each brand */
+  
+  /* Facebook */
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /* Twitter */
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  /*Instagram*/
+  .fa-instagram {
+    background: #3B5998;
+    color: white;
+  }
+  
+  /*Youtube*/
+  .fa-youtube {
+    background: #FF0000;
+    color: white;
+  }
+  
+  /* Small devices (landscape phones, 544px and up) */
+  @media (max-width: 600px) {  
+    /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  
+      .column {
+          flex: 100%;
+          max-width: 100%;
+        }
+      
+      .photo_title {
+        position: relative;
+        text-align: center;
+        color: black;
+        font-size: 1.5rem;
+      }
+      .photo_title:hover {
+        opacity: 0.7;
+      }
+  
+      .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      .text-block {
+        color:black;
+        background: rgba(255, 255, 255, 0.5);
+        width:100%;
+        padding: 10px;
+    }
+    .header-image {
+      height: 300px;
+    }
+    
+  }
+  
+     
+     
+  
+  /* Medium devices (tablets, 768px and up) The navbar toggle appears at this breakpoint */
+  @media (max-width: 800px) {  
+    /* Responsive layout for four columns */
+    .column {
+          flex: 50%;
+          max-width: 50%;
+        }
+        .photo_title {
+          position: relative;
+          text-align: center;
+          color: black;
+          font-size: 1.5rem;
+        }
+  
+        .photo_title:hover {
+          opacity: 0.7;
+        }
+       
+        .centered {
+          position: absolute;
+          top: 50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+        }
+        
+        .card {
+          flex:75%;
+          max-width: 75%;
+  
+        }
+        .text-block {
+          color:black;
+          background: rgba(255, 255, 255, 0.5);
+          width:100%;
+          padding: 10px;
+      }
+        .header-image {
+          height: 400px;
+        }
+        .container-carousel {
+          max-height: 50vh;
+        }
+      }
+    
+  
+  /* Large devices (desktops, 992px and up) */
+  @media (min-width: 801px) { 
+      h1 {font-size:2.5rem;} 
+      .photo_title {
+        position: relative;
+        text-align: center;
+        color: black;
+        font-size: 1.5rem;
+      }
+  
+      .photo_title:hover {
+        opacity: 0.7;
+      }
+     
+      .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      
+      .text-block {
+        color:black;
+        background: rgba(255, 255, 255, 0.5);
+        width:100%;
+        padding: 10px;
+    }
+      .header-image {
+        height: 500px;
+      }
+      
+      
+    }
+  
+    /* Extra large devices (large desktops, 1200px and up) */
+  @media (min-width: 1200px) {  
+      h1 {font-size:3rem;}  
+      
+      .photo_title:hover {
+        opacity: 0.7;
+      }
+      .centered {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+      }
+      
+      .text-block {
+        color:black;
+        background: rgba(255, 255, 255, 0.5);
+        width:100%;
+        padding: 10px;
+      }
+      .header-image {
+        height: 600px;
+      }
+  
+    }
+     
+  
+    

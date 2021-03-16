@@ -7,6 +7,8 @@ Technology used: html, css, bootstrap 4, javascript, iframe
 
 Future plans of Improvement:
 
-Adding a Live Video page connected to Facebook Live, it would hold the pre-existing video and when recording new content you would replace the video. Connects to FB Live as well allowing for Autotomy and no need to replace codes weekly. (added cost to client for service)
-Adding video content from Youtube channel, currently the client has no videos from YouTube but is trying to start more media outreach. When the content becomes available I would post welcome videos and other website videos to bring a more intimate atmosphere to the site.
-Shortly after posting this on Github, the filling out of content and meeting with the clients would be done in person. Allowing for a better hands on feel from the clients prospective.
+1. Adding a Live Video page connected to Facebook Live, it would hold the pre-existing video and when recording new content you would replace the video. Connects to FB Live as well allowing for Autotomy and no need to replace codes weekly. (added cost to client for service)
+
+2. Adding video content from Youtube channel, currently the client has no videos from YouTube but is trying to start more media outreach. When the content becomes available I would post welcome videos and other website videos to bring a more intimate atmosphere to the site.
+
+3. Shortly after posting this on Github, the filling out of content and meeting with the clients would be done in person. Allowing for a better hands on feel from the clients prospective.
